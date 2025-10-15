@@ -8,4 +8,6 @@ Pada hari senin, 13 Oktober 2025 saya mempelajari :
 <li>copy-paste isi emmet.html (pertemuan-02) ke index.html (pertemuan-03)<li>
 <li>membuat struktur form untuk section contact</li>
 <li>membuat styling untuk selector ID #about </li>
+<li>membuat styling selector about h2<li>
+
 </ol>
