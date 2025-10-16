@@ -16,4 +16,5 @@ Pada hari senin, 13 Oktober 2025 saya mempelajari :
 <li>membuat styling contact h2<li>
 <li>membuat styling label<li>
 <li>membuat styling textarea<li>
+<li>Membuat styling button<li>
 </ol>
