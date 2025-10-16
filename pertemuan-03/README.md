@@ -13,4 +13,6 @@ Pada hari senin, 13 Oktober 2025 saya mempelajari :
 <li>membuat about strong <li>
 <li>membuat styling about mode mobile <li>
 <li>membuat styling contact <li>
+<li>membuat styling contact h2<li>
+<li>membuat styling label<li>
 </ol>
