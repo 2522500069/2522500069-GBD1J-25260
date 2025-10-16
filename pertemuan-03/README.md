@@ -12,4 +12,5 @@ Pada hari senin, 13 Oktober 2025 saya mempelajari :
 <li>membuat styling about p<li>
 <li>membuat about strong <li>
 <li>membuat styling about mode mobile <li>
+<li>membuat styling contact <li>
 </ol>
