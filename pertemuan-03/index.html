@@ -7,7 +7,7 @@
      <style>
       #about {
 
-      background-color: aquamarine;
+      
       border-radius: 10px;
       padding: 20px;
       max-width: 700px;
@@ -42,8 +42,21 @@
         flex-shrink: 0;
       }
 
+#about,#contact{
+  background: linear-gradient(45deg, #ff9ff3,#feca57,#48dbfb,#1dd1a1);
+  animation: wave 5s ease infinite;
+  background-size: 800% 800%;
+}
+
+@keyframes wave {
+  0% {background-position: 0% 50%;}
+  50%{background-position: 100% 50%;}
+  100%{background-position: 0% 50%;}
+}
+
+
 #contact {
-background-color: rgb(216, 205, 47);
+
 border-radius: 10px;
 padding: 20px;
 max-width: 700px;
@@ -84,6 +97,7 @@ input[type="text"],
 
     button[type="reset"] {
       width: 100%;
+      margin-top: 10px;
       padding: 12px;
       background-color: #5a67d8;
       color: rgb(8, 8, 8);
@@ -100,14 +114,16 @@ input[type="text"],
   }
 
       @media (max-width: 600px) {
-        #about p {
+        #about p, #contact label {
           flex-direction: column;
           align-items: flex-start;
         }
-        #about strong  {
+        #about strong , #contact label>span {
           text-align: left;
           padding-right: 0px;
           margin-bottom: 2px;
+        }
+        #contact input , #contact textarea , #contact button {width: 100%;
         }
       }
     </style>
@@ -138,7 +154,7 @@ input[type="text"],
         <p><strong>Tanggal lahir       :</strong>13-O6-2OO7</p>       
         <p><strong>Hoby                :</strong>Memasak</p>
         <p><strong>pasangan            :</strong>jomblo hapy</p>
-        <p><strong>Perkerjaan          :</strong>smencari usaha</p>
+        <p><strong>Perkerjaan          :</strong>Mencari usaha</p>
         <p><strong>Nama Ayah           :</strong>Martin</p>
         <p><strong>Nama Ibu            :</strong>Ernawati</p>
         <P><strong>Nama Kakak          :</strong>Eliza dan Vicky</P>

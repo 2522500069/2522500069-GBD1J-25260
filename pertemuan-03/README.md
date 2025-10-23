@@ -18,4 +18,5 @@ Pada hari senin, 13 Oktober 2025 saya mempelajari :
 <li>membuat styling textarea<li>
 <li>Membuat styling button<li>
 <li>Membuat styling footer<li>
+<li>membuat background warna bergerak <li>
 </ol>
