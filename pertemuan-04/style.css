@@ -31,3 +31,9 @@ text-decoration: none;
 padding: 6px 12px;
 }
 
+footer {
+  background: #222;
+  color:  #aaa;
+  text-align: center;
+  padding: 10px;
+}

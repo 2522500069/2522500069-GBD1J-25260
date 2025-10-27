@@ -6,9 +6,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
      <style>
-      #about {
 
-      
+      #about, #contact, #home {
       border-radius: 10px;
       padding: 20px;
       max-width: 700px;
@@ -16,14 +15,17 @@
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
       text-align: justify;
       }
-      #about h2 {
+      #about h2, #contact h2, #home h2 {
         color: blue;
         border-bottom: 2px solid;
         padding-bottom: 6px;
         margin-top: 0;
         margin-bottom: 16px;
       }
-      #about p {
+      #home p  {
+       text-align: justify;
+      }
+      #about p , #contact label{
         display: flex;
         justify-content: flex-start;
         align-items: baseline;
@@ -34,7 +36,7 @@
         
       }
       
-      #about strong{
+      #about strong, #contact label>span{
         min-width: 100px;
         color: blue;
         font-weight: 600;
@@ -43,7 +45,7 @@
         flex-shrink: 0;
       }
 
-#about,#contact{
+#about,#contact , #home{
   background: linear-gradient(45deg, #ff9ff3,#feca57,#48dbfb,#1dd1a1);
   animation: wave 5s ease infinite;
   background-size: 800% 800%;
@@ -55,45 +57,31 @@
   100%{background-position: 0% 50%;}
 }
 
+#contact input, #contact textarea {
+    flex: 1;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 8px;
+    color: #000;
+    font-weight: normal;
+    margin: 0; 
+    box-sizing: border-box;
 
-#contact {
-
-border-radius: 10px;
-padding: 20px;
-max-width: 700px;
-margin: 30px auto;
-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-#contact h2 {
-  margin-bottom: 20px;
-  text-align: center;
-  color: rgb(0, 0, 0);
-}
-
-form{ display: flex;
+#contct button {
+  margin-top: 10px;
+  display: inline-block;
+  padding: 10px  24px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor:pointer;
+  border: none;
+  transition: all 0.3s ease;
+  margin-right: 8px;
   flex-direction: column;
 }
 
-label {
-  display: block;
-  margin-bottom: 5px;
-  font-weight: bold;
-  color: #030303;
-}
-
-input[type="text"],
-  input[type="email"],
-    input[type="Pesan"],
-    textarea{
-      width: 700px;
-      padding: 10px;
-      margin-bottom: 15px;
-      border: 1px solid;
-      border-radius: 4px;
-      border-color: #000000;
-      outline: none;
-    }
     button[type="submit"],
 
     button[type="reset"] {
@@ -132,7 +120,7 @@ input[type="text"],
 </head>
 <body>
   <header>
-    <hi>Ini Header</hi>
+    <h1>Ini Header</h1>
     <nav>
         <ui>
             <li><a href="#home">Beranda</a></a></li>
