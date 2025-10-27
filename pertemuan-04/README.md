@@ -5,3 +5,4 @@ Pada hari ini 23 oktober saya belajar :
  <ol>
   <li>copy dari pertemuan O3 dan pertemuan O4</li>
 <li> "aturan css untuk body dan global reset"</li> 
+<li> "styling header"</li>
