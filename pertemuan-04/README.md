@@ -8,3 +8,4 @@ Pada hari ini 23 oktober saya belajar :
 <li> "styling header"</li>
 <li> "styling section#home"</li>
 <li> "styling footer"</li>
+<li> "styling navigasi"</li>
