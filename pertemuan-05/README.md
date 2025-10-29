@@ -9,3 +9,4 @@ Pada hari rabu 29 oktober 2025 saya belajar
 <li>"styling nav mobile "</li>
 <li>"menambah file js"</li>
 <li>"membuat script.js"</li>
+<li>"intraksi javaScript"</li>
