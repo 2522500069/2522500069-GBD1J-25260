@@ -63,9 +63,152 @@ header li a:active {
   cursor: pointer;
 }
 
+
+      #about, #contact, #home {
+      border-radius: 10px;
+      padding: 20px;
+      max-width: 700px;
+      margin: 20px auto;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      text-align: justify;
+      }
+      #about h2, #contact h2, #home h2 {
+        color: blue;
+        border-bottom: 2px solid;
+        padding-bottom: 6px;
+        margin-top: 0;
+        margin-bottom: 16px;
+      }
+      #home p  {
+       text-align: justify;
+      }
+      #about p , #contact label{
+        display: flex;
+        justify-content: flex-start;
+        align-items: baseline;
+        margin: 0px;
+        padding: 6px 0;
+        border-bottom: 1px solid;
+
+        
+      }
+      
+      #about strong, #contact label>span{
+        min-width: 100px;
+        color: blue;
+        font-weight: 600;
+        text-align: right;
+        padding-right: 16px;
+        flex-shrink: 0;
+      }
+
+#about,#contact , #home{
+  background: linear-gradient(45deg, #ff9ff3,#feca57,#48dbfb,#1dd1a1);
+  animation: wave 5s ease infinite;
+  background-size: 800% 800%;
+}
+
+@keyframes wave {
+  0% {background-position: 0% 50%;}
+  50%{background-position: 100% 50%;}
+  100%{background-position: 0% 50%;}
+}
+
+#contact input, #contact textarea {
+    flex: 1;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 8px;
+    color: #000;
+    font-weight: normal;
+    margin: 0; 
+    box-sizing: border-box;
+
+}
+
+#contct button {
+  margin-top: 10px;
+  display: inline-block;
+  padding: 10px  24px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor:pointer;
+  border: none;
+  transition: all 0.3s ease;
+  margin-right: 8px;
+  flex-direction: column;
+}
+
+    button[type="submit"],
+
+    button[type="reset"] {
+      width: 100%;
+      margin-top: 10px;
+      padding: 12px;
+      background-color: #5a67d8;
+      color: rgb(8, 8, 8);
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+    }
+
+    button[type="submit"]:hover {
+      background-color:blue
+    }
+  button[type="reset"]:hover {
+    background-color:rgb(11, 100, 136)
+  }
+
+      @media (max-width: 600px){
 .menu-toggle  {
   display: block;
   position: absolute;
   left: 16px;
   top: 8px;
 }
+ nav {
+  display: none;
+  flex-direction: column;
+  background:  #003366;
+  width: 100%;
+  padding: 5px 0;
+ }
+ nav.active {
+  display: flex;
+ }
+        header {
+         padding: 16px;
+         position: sticky;
+         top: 0;
+         z-index: 1000;
+        }
+        header h1 {
+            margin: 0 0 8px;
+            font-size: 20px;
+            line-height: 1.2;
+        }
+        header ul {
+            flex-direction: column;
+            align-items: stretch;
+            gap: 8px;
+            margin: 8px 0 0;
+        }
+        header li a {
+            display: block;
+            padding: 12px 14px;
+            border: 1px solid rgba (255, 255, 255, .35);
+            background: rgba(255, 255, 255, .08);
+            backdrop-filter: saturate(120%);
+        }
+        #about p, #contact label {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+        #about strong , #contact label>span {
+          text-align: left;
+          padding-right: 0px;
+          margin-bottom: 2px;
+        }
+        #contact input , #contact textarea , #contact button {width: 100%;
+        }
+      }
