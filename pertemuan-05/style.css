@@ -158,6 +158,14 @@ header li a:active {
   button[type="reset"]:hover {
     background-color:rgb(11, 100, 136)
   }
+  .menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 28px;
+    cursor: pointer;
+  }
 
       @media (max-width: 600px){
 .menu-toggle  {
