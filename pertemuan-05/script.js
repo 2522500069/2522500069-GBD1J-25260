@@ -1,1 +1,2 @@
-<script src="script.js"<>/script>
+document.getElementById("menutoggle").addEventListener("click", function() {
+    document.querySelector("nav").classList.toggle("active")});
