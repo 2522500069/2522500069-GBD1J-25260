@@ -1,0 +1,68 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <header>
+    <h1>Ini Header</h1>
+    <button class="menu-toggle" id="menutoggle" aria-table="toggle Navigation">
+      &#9776;
+    </button>
+    <nav>
+        <ul>
+            <li><a href="#home">Beranda</a></li>
+            <li><a href="#about">Tentang </a></li>
+            <li><a href="#contact">kontak</a></li>
+        </ul>
+    </nav>
+  </header>
+  <main>
+    <section Id="home">
+        <h2>Selamat Datang</h2>
+        <p>ini contoh paragraf HTML.</p>
+    </section>
+   
+    <section Id="about">
+        <h2>Tentang kami</h2>
+        <p><strong>Nim                 :</strong>25225OOO69</P> 
+        <P><strong>Nama                :</strong>Khailla</P>
+        <p><strong>Tempat Lahir        :</strong>Desa Tanjung Sangkar</p> 
+        <p><strong>Tanggal lahir       :</strong>13-O6-2OO7</p>       
+        <p><strong>Hoby                :</strong>Memasak</p>
+        <p><strong>pasangan            :</strong>jomblo hapy</p>
+        <p><strong>Perkerjaan          :</strong>Mencari usaha</p>
+        <p><strong>Nama Ayah           :</strong>Martin</p>
+        <p><strong>Nama Ibu            :</strong>Ernawati</p>
+        <P><strong>Nama Kakak          :</strong>Eliza dan Vicky</P>
+        <p>&#128525; &#128525;</p>
+  
+    </section>
+    <section Id="contact">
+        <h2>Kontak kami</h2>
+        <form action="">
+          <label for="txtNama"><span>Nama:</span>
+          <input type="text" id="txtNama" name="txtNama" placeholder="Masukkan nama" required autocomplete="name"></label>
+
+          <label for="txtEmail"><span>Email:</span>
+          <input type="text" id="txtEmail" name="txtEmail" placeholder="Masukkan email" required autocomplete="email"></label>
+
+          <label for="txtPesan"><span>Pesan:</span>
+          <textarea id="txtPesan" name="txtPesan" rows="4" placeholder="Tulis pesan anda..." required></textarea></label>
+
+          <button type="submit">Kirim</button>
+          <button type="reset">Batal</button>
+        
+        </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Khailla [2522500069]</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

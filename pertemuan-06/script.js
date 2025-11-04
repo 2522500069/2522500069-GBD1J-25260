@@ -4,4 +4,4 @@ document.getElementById("menutoggle").addEventListener("click", function()
 
 alert("Halo,Saya Khailla");
 let nama  =  prompt("siapa nama kamu ?");
-alert("halo,  " + nama + "!");
+alert("halo,  " + nama  + "!");
