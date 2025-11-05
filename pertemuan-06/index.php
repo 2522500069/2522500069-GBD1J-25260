@@ -347,6 +347,19 @@
         <p><strong>Bobot:</strong> <?php echo $bobot3; ?></p>
         <p><strong>Status:</strong> <?php echo $status3; ?></p>
 
+         <h3>MataKuliah 4</h3>
+        <p><strong>Nama MataKuliah 4:</strong> <?php echo $namamatkul4; ?></p>
+        <p><strong>SKS:</strong> <?php echo $sksmatkul4; ?></p>
+        <p><strong>Kehadiran:</strong> <?php echo $nilaihadir4; ?></p>
+        <p><strong>Tugas:</strong> <?php echo $nilaitugas4; ?></p>
+        <p><strong>UTS:</strong> <?php echo $nilaiuts4; ?></p>
+        <p><strong>UAS:</strong> <?php echo $nilaiuas4; ?></p>
+         <p><strong>Nilai Akhir:</strong> <?php echo $nilaiAkhir4; ?></p>
+        <p><strong>Grade:</strong> <?php echo $grade4; ?></p>
+        <p><strong>Angka Mutu:</strong> <?php echo $mutu4; ?></p>
+        <p><strong>Bobot:</strong> <?php echo $bobot4; ?></p>
+        <p><strong>Status:</strong> <?php echo $status4; ?></p>
+
 
 
         <h2>Kontak kami</h2>
