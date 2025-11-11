@@ -6,4 +6,4 @@ Hari ini kamis O6 November 2025 saya mempelajari:
     <li> copy item </li>
     <li> mengambil elemen file proses.php </li>
     <li> memberikan perintah ke halaman proses.php </li>
-    <li>
+    <li> menambahkan pesan ke proses.php </li>
