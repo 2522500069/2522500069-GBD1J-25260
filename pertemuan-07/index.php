@@ -5,9 +5,9 @@ $akunama = $_POST["txtNama"];
 $akunama + $_Post["txtEmail"];
 $akunama = $_POST["txtPesan"];
 
-$_SESSION["txtNama"] = $akunama;
-$_SESSION["txtEmail"] = $akuemail;
-$_SESSION["txtPesan"] = $akupesan;
+ $akunama = $_SESSION["txtNama"];
+ $akuemail = $_SESSION["txtEmail"];
+ $akupesan = $_SESSION["txtPesan"];
 
 
 header("Location: index.php");
