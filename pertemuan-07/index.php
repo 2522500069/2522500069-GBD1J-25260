@@ -102,11 +102,19 @@ endif;
         <button type="reset">Batal</button>
       </form>
 
+      <?php if (!empty($akunama)): ?>
+      <?php if (!empty($akuemail)): ?>
+      <?php if (!empty($akupesan)): ?>
 
       <h2>Siapa Kamu?, Yang menghubungi kami!</h2>
     <P><strong>Nama :</strong><?php echo $akunama; ?></php>
     <p><strong>Email:</strong><?php echo $akuEmail; ?></php>
     <p><stromg>Pesan:</strong><?php echo $akupesan; ?></php>
+
+    <?php endif; ?>
+    <?php endif; ?>
+    <?php endif; ?>
+    
 
     </section>
   </main>
