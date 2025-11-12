@@ -1,17 +1,12 @@
-<?php
-session_start();
+<?php session_start();
 
-$akunama = $_POST["txtNama"];
-$akunama + $_Post["txtEmail"];
-$akunama = $_POST["txtPesan"];
+$akunama = $_SESSION["txtNama"];
+$akuEmail = $_SESSION["txtEmail"];
+$akupesan = $_SESSION["txtPesan"];
+echo $akunama . $akuEmail . $akupesan;
 
- $akunama = $_SESSION["txtNama"];
- $akuemail = $_SESSION["txtEmail"];
- $akupesan = $_SESSION["txtPesan"];
-
-
-header("Location: index.php");
 ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -97,6 +92,13 @@ header("Location: index.php");
         <button type="submit">Kirim</button>
         <button type="reset">Batal</button>
       </form>
+
+
+      <h2>Siapa Kamu?, Yang menghubungi kami!</h2>
+    <P><strong>Nama :</strong><?php echo $akunama; ?></php>
+    <p><strong>Email:</strong><?php echo $akuEmail; ?></php>
+    <p><stromg>Pesan:</strong><?php echo $akupesan; ?></php>
+     
     </section>
   </main>
 

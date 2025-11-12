@@ -3,12 +3,11 @@ session_start();
 
 $akunama = $_POST["txtNama"];
 $akuemail = $_POST["txtEmail"];
-$akupesan = $_POST["txtpesan"];
+$akupesan = $_POST["txtPesan"];
 
 $_SESSION["txtNama"] = $akunama;
 $_SESSION["txtEmail"] = $akuemail;
 $_SESSION["txtPesan"] = $akupesan;
 
-
-header("location: index. php");
+header("location: index.php");
 ?>
