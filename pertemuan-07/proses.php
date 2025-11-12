@@ -1,1 +1,5 @@
-<?php echo "halo aku Khailla php  yey :3"  ?>
+<?php 
+echo $_POST["txtnama"];
+echo $_POST["txtEmail"];
+echo $_POST["txtPesan"];
+?>
