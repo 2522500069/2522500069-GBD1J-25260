@@ -1,3 +1,18 @@
+<?php
+session_start();
+
+$akunama = $_POST["txtNama"];
+$akunama + $_Post["txtEmail"];
+$akunama = $_POST["txtPesan"];
+
+$_SESSION["txtNama"] = $akunama;
+$_SESSION["txtEmail"] = $akuemail;
+$_SESSION["txtPesan"] = $akupesan;
+
+
+header("Location: index.php");
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -63,7 +78,7 @@
 
     <section id="contact">
       <h2>Kontak Kami</h2>
-      <form action="proses.php" method="post">
+      <form action="proses.php" method="POST">
 
         <label for="txtNama"><span>Nama:</span>
           <input type="text" id="txtNama" name="txtNama" placeholder="Masukkan nama" required autocomplete="name">
