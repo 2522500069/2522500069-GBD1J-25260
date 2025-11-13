@@ -11,4 +11,4 @@ Proses saya mengerjakan UTS ini sebagai berikut:<br>
   <li>silahkan diisi sesuai proses pengerjaan kalian masing-masing</li>
   <ol>
   <li>copy dan extract file bahan uts <li>
-  <li>menambahkan section id 
+  <li>menambahkan section id baru biodata sederhana mahasiswa</li>
