@@ -14,3 +14,5 @@ Proses saya mengerjakan UTS ini sebagai berikut:<br>
   <li>menambahkan section id baru biodata sederhana mahasiswa</li>
   <li>menambahkan form action</li>
   <li>menambahkan form action baru dari input</li>
+  <li>styling css</li>
+  <ol>
