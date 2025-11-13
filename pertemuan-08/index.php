@@ -52,13 +52,13 @@ endif;
       <p>Ini contoh paragraf HTML.</p>
     </section>
 
-    <section id="about">
+      <section id="about>
       <?php
       $nim = 2511500010;
-      $NIM = '0344300002';
-      $nama = "Say'yid Abdullah";
-      $Nama = 'Al\'kautar Benyamin';
-      $tempat = "Jebus";
+      $NIM = '034430001';
+      $nama = "say'yid Abdulah";
+      $Nama = "AL/'kautar";
+      $tempat = "jebus";
       ?>
       <h2>Tentang Saya</h2>
       <p><strong>NIM:</strong>
@@ -98,6 +98,12 @@ endif;
           <small id="charCount">0/200 karakter</small>
         </label>
 
+</section>
+
+<section id="about">
+  <?php
+
+
 
         <button type="submit">Kirim</button>
         <button type="reset">Batal</button>
@@ -115,6 +121,7 @@ endif;
 
     </section>
   </main>
+
 
   <footer>
     <p>&copy; 2025 Yohanes Setiawan Japriadi [0344300002]</p>
