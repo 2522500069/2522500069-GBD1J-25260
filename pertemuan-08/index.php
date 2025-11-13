@@ -1,23 +1,21 @@
-<?php session_start();
+<?php
+session_start();
 
-$akunama = "";
-if (isset($_SESSION["txtNama"])) :
-    $akunama = $_SESSION["txtNama"];
+$sesnama = "";
+if (isset($_SESSION["sesnama"])):
+  $sesnama = $_SESSION["sesnama"];
 endif;
 
-$akuemail = "";
-if (isset($_SESSION["txtEmail"])) :
-    $akuemail = $_SESSION["txtEmail"];
+$sesemail = "";
+if (isset($_SESSION["sesemail"])):
+  $sesemail = $_SESSION["sesemail"];
 endif;
 
-$akupesan = "";
-if (isset($_SESSION["txtPesan"])) :
-    $akupesan = $_SESSION["txtPesan"];
+$sespesan = "";
+if (isset($_SESSION["sespesan"])):
+  $sespesan = $_SESSION["sespesan"];
 endif;
-
 ?>
-
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -60,6 +58,7 @@ endif;
       $NIM = '0344300002';
       $nama = "Say'yid Abdullah";
       $Nama = 'Al\'kautar Benyamin';
+      $tempat = "Jebus";
       ?>
       <h2>Tentang Saya</h2>
       <p><strong>NIM:</strong>
@@ -72,14 +71,14 @@ endif;
         echo $Nama;
         ?> &#128526;
       </p>
-      <p><strong>Tempat Lahir:</strong> Pangkalpinang</p>
+      <p><strong>Tempat Lahir:</strong> <?php echo $tempat; ?></p>
       <p><strong>Tanggal Lahir:</strong> 1 Januari 2000</p>
       <p><strong>Hobi:</strong> Memasak, coding, dan bermain musik &#127926;</p>
       <p><strong>Pasangan:</strong> Belum ada &hearts;</p>
       <p><strong>Pekerjaan:</strong> Dosen di ISB Atma Luhur &copy; 2025</p>
       <p><strong>Nama Orang Tua:</strong> Bapak Setiawan dan Ibu Maria</p>
       <p><strong>Nama Kakak:</strong> Antonius Setiawan</p>
-      <p><strong>Nama Adik:</strong> Christina Setiawan</p>
+      <p><strong>Nama Adik:</strong> <?php echo $sespesan ?></p>
     </section>
 
     <section id="contact">
@@ -102,24 +101,17 @@ endif;
 
         <button type="submit">Kirim</button>
         <button type="reset">Batal</button>
-
       </form>
 
-      <?php if (!empty($akunama)): ?>
-      <?php if (!empty($akunama)): ?>
-      <?php if (!empty($akunama)): ?>
+      <?php if (!empty($sesnama)): ?>
+        <br><hr>
+        <h2>Yang menghubungi kami</h2>
+        <p><strong>Nama :</strong> <?php echo $sesnama ?></p>
+        <p><strong>Email :</strong> <?php echo $sesemail ?></p>
+        <p><strong>Pesan :</strong> <?php echo $sespesan ?></p>
+      <?php endif; ?>
 
-      <h2>Siapa Kamu?, Yang menghubungi kami!</h2>
 
-    <P><strong>Nama :</strong><?php echo $akunama; ?></php>
-    <p><strong>Email:</strong><?php echo $akuemail; ?></php>
-    <p><stromg>Pesan:</strong><?php echo $akupesan; ?></php>
-
-    
-    <?php endif; ?>
-    <?php endif; ?>
-    <?php endfor; ?>
-    
 
     </section>
   </main>

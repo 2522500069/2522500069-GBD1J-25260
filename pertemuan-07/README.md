@@ -1,5 +1,5 @@
-NIM  : 25225OOO69
-NAMA : KHAILLA
+NIM  : 25225OOO69 <br>
+NAMA : KHAILLA <br>
 
 Hari ini kamis O6 November 2025 saya mempelajari:
 <ol>
