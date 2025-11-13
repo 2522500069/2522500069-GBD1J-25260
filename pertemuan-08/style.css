@@ -85,6 +85,7 @@ header li a:active {
 }
 
 #about p,
+#contact label,
 #contact label {
   display: flex;
   justify-content: flex-start;
@@ -105,7 +106,9 @@ header li a:active {
 }
 
 #contact input,
-#contact textarea {
+#contact textarea,
+#biodata input,
+#biodata textarea {
   flex: 1;
   border: 1px solid #ccc;
   border-radius: 6px;
@@ -116,7 +119,7 @@ header li a:active {
   box-sizing: border-box;
 }
 
-#contact button {
+#contact button, #biodata button {
   margin-top: 10px;
   display: inline-block;
   padding: 10px 24px;
