@@ -12,4 +12,4 @@
   <li>echo session ke nilai label section contact</li>
   <li>echo session ke nilai label section contact selesai</li>
 </ol>
-  <li>membuat form sesion biodata</li> 
+  <li>mengubah sesion biodata</li>
