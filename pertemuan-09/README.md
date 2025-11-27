@@ -13,3 +13,4 @@
   <li>echo session ke nilai label section contact selesai</li>
 </ol>
   <li>mengubah sesion biodata</li>
+  <li>menghapus baris kode 23-32 dan menganti kode sebelum sesion about</li>
