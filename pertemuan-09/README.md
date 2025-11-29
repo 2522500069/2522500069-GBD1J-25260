@@ -14,3 +14,4 @@
 </ol>
   <li>menambahkan bentuk array associative</li>
   <li>mengubah sesion biodata</li>
+  <li>menghapus baris kode 19-67dan mengganti kode sebelum section#about</li>
