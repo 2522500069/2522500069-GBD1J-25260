@@ -22,4 +22,5 @@
   <li>menhapus baris 123-129 sebagai mengantikan kode di bawah</li>
   <li>menambahkan kode ke file index.php</li>
   <li>membuat kode arrkontak di file prose.php </li>
+  <li>membuat kode arrkontak di file index.php</li>
 </ol>

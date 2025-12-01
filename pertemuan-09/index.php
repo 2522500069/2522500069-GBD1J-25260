@@ -145,6 +145,17 @@ endif;
         <button type="submit">Kirim</button>
         <button type="reset">Batal</button>
       </form>
+     <?php
+     $kontak = $_SESSION["kontak"] ?? [];
+
+     $fieldkontak = [
+      "nama" => ["label" => "Nama:", "suffix" => ""],
+      "pesan" => ["label" => "Pesan:", "sufiix" => ""],
+      "email" => ["label" => "Email:", "suffix" => ''],
+     ]
+  
+
+
 
       <?php if (!empty($sesnama)): ?>
         <br><hr>
