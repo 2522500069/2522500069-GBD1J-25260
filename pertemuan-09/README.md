@@ -17,4 +17,5 @@
   <li>menambahkan baris kode baru setelah baris<h2>Tentang saya<h2/> </li>
   <li>menghapus baris 13O-14O untuk menampilkan isi array asssociative $fielConfig</li>
   <li>menambah file baru fumgsi.php</li>
+  <li>menambahkan kode ke fungsi.php</li>
 </ol>
