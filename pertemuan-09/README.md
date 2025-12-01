@@ -16,4 +16,5 @@
   <li>menghapus baris kode 19=67 mengganti kode sebelum section#about</li>
   <li>menambahkan baris kode baru setelah baris<h2>Tentang saya<h2/> </li>
   <li>menghapus baris 13O-14O untuk menampilkan isi array asssociative $fielConfig</li>
+  <li>menambah file baru fumgsi.php</li>
 </ol>
