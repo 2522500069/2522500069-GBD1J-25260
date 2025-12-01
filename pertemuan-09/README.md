@@ -20,4 +20,5 @@
   <li>menambahkan kode ke fungsi.php</li>
   <li>membahkan lagi kode ke fungsi.php</li>
   <li>menhapus baris 123-129 sebagai mengantikan kode di bawah</li>
+  <li>menambahkan kode ke file index.php</li>
 </ol>

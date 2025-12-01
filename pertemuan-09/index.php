@@ -1,6 +1,8 @@
 <?php
 session_start();
 
+require_once __DIR__ . '/fungsi.php' ;
+
 $sesnama = "";
 if (isset($_SESSION["sesnama"])):
   $sesnama = $_SESSION["sesnama"];
@@ -120,7 +122,7 @@ endif;
 
      <section id="about">
       <h2>Tentang Saya</h2>
-      <?= tampilkanBiodata($fieldconfig $biodata) ?>
+      <?= tampilkanBiodata($fieldconfig, $biodata) ?>
       </section>
 
     <section id="contact">
