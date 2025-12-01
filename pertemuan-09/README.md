@@ -11,7 +11,8 @@
   <li>tangkap session dari file proses selesai</li>
   <li>echo session ke nilai label section contact</li>
   <li>echo session ke nilai label section contact selesai</li>
-</ol>
   <li>menambahkan bentuk array associative</li>
   <li>mengubah sesion biodata</li>
-  <li>menghapus baris kode 19-67dan mengganti kode sebelum section#about</li>
+  <li>menghapus baris kode 19=67 mengganti kode sebelum section#about</li>
+  <li>menambahkan baris kode baru setelah baris <h2>Tentang saya<h2/> </li>
+</ol>
