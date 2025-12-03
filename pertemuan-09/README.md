@@ -23,4 +23,6 @@
   <li>menambahkan kode ke file index.php</li>
   <li>membuat kode arrkontak di file prose.php </li>
   <li>membuat kode arrkontak di file index.php</li>
+  <li>membuat kode fieldkontak di file index.php menggunakan arr</li>
+  
 </ol>

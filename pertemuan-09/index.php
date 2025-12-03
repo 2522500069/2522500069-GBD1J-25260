@@ -147,26 +147,18 @@ endif;
       </form>
      <?php
      $kontak = $_SESSION["kontak"] ?? [];
-
      $fieldkontak = [
       "nama" => ["label" => "Nama:", "suffix" => ""],
-      "pesan" => ["label" => "Pesan:", "sufiix" => ""],
-      "email" => ["label" => "Email:", "suffix" => ''],
-     ]
-  
+      "email" => ["label" => "Email:", "sufiix" => ""],
+      "pesan" => ["label" => "Pesan:", "suffix" => ''],
+     ];
+     ?>
 
-
-
-      <?php if (!empty($sesnama)): ?>
-        <br><hr>
-        <h2>Yang menghubungi kami</h2>
-        <p><strong>Nama :</strong> <?php echo $sesnama ?></p>
-        <p><strong>Email :</strong> <?php echo $sesemail ?></p>
-        <p><strong>Pesan :</strong> <?php echo $sespesan ?></p>
-      <?php endif; ?>
-
-
-
+     <br>
+     <hr>
+     <h2>Yang menghubungi kami</h2>
+     <?= tampilkan, ($fieldkontak, $kontak) ?>
+    
     </section>
   </main>
 
