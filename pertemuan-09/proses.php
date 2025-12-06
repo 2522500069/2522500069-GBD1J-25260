@@ -8,7 +8,6 @@ $arrKontak = [
 
 $_SESSION["kontak"] = $arrkontak;
 
-
 $arrBiodata = [
   "nim" => $_POST["txtNim"] ?? "",                              
   "nama" =>$_POST["txtNmLengkap"] ?? "",
