@@ -8,5 +8,6 @@ Pada hari kamis 11 desember saya 2025 belajar:
 <li>menambah flash message dari session ke index.php</li>
 <li>menambahkan kode baru ke flash massage ke idex.php</li>
 <li>menambahkan kode baru di index.php</li>
+<li>menambahkan kode ke proses.php</li>
 
 
