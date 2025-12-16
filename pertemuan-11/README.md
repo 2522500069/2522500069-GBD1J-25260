@@ -11,5 +11,6 @@ Pada hari kamis 11 desember saya 2025 belajar:
 <li>menambahkan kode ke proses.php</li>
 <li>menambahkan kode baru ke captha di proses.php</li>
 <li>menambakan kode baru ke index.php</li>
+<li>mencarikan kesalahan</li>s
 
 
