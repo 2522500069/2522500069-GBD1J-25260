@@ -2,10 +2,10 @@
 require_once __DIR__ . '/fungsi.php';
 require 'koneksi.php';
 
-$fieldkontak = [
-     "nama" =>  ["label" => "Nama:", "suffix" => ""],
-     "email" => ["label" => "Email:", "suffix" => ""],
-     "pesan" => ["label" => "Pesan Anda:", "suffix" => ""],
+$fieldContact = [
+    "nama"  => ["label" => "Nama:",       "suffix" => ""],
+    "email" => ["label" => "Email:",      "suffix" => ""],
+    "pesan" => ["label" => "Pesan Anda:", "suffix" => ""]
 ];
 
 $sql = "SELECT * FROM tbl_tamu ORDER BY cid DESC";
@@ -24,7 +24,7 @@ if (!$q) {
             "pesan" => $row["cpesan"] ?? "",
         ];
 
-        echo tampilkanBiodata($fieldkontak, $arrContact);
+        echo tampilkanBiodata($fieldContact, $arrContact);
     }
 }
 ?>

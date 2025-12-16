@@ -14,6 +14,6 @@ Pada hari kamis 11 desember saya 2025 belajar:
 <li>mencarikan kesalahan</li>
 <li>menambahkan local host baru</li>
 <li>menambahkan kode baru ke read_ic.php</li>
-<li>mengagrebkan local host</li>
+<li>mengagrebkan local host<li>
 
 
