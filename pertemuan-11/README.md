@@ -13,6 +13,7 @@ Pada hari kamis 11 desember saya 2025 belajar:
 <li>menambakan kode baru ke index.php</li>
 <li>mencarikan kesalahan</li>
 <li>menambahkan local host baru</li>
-<li>menambahkan kode baru ke rend_ic.php</li>
+<li>menambahkan kode baru ke read_ic.php</li>
+<li>mengagrebkan local host</li>
 
 
