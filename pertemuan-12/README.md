@@ -9,3 +9,4 @@ Pada hari kamis 18 desember saya 2025 belajar:
 <li>membuat folder baru edit.php</li>
 <li>menampilkan from dengan data lama dan mmgetik skrip yang di baca</li>
 <li>membuat folder baru di proses_update.php</lo>
+<li> menyimpan perubahan dan menggunakan query UFDATE dan mengetik skrip prepared stament</li>
