@@ -7,3 +7,4 @@ Pada hari kamis 18 desember saya 2025 belajar:
 <li>menambahkan kode cid di-casing di file read.php</li>
 <li>menambahkan kode aksi di file read.php<li>
 <li>membuat folder baru edit.php</li>
+<li>menampilkan from dengan data lama dan mmgetik skrip yang di baca cid </li>
