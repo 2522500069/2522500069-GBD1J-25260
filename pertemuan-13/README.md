@@ -3,4 +3,5 @@ khaila<br>
 <ol>
 <li>copy item yang diberikan</li>
 <li>menambah link delete</li>
+<li>menambah proses delete</li>
 </ol>
