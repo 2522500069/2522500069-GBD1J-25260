@@ -47,8 +47,8 @@
       <td><?= $i++ ?></td>
       <td>
         <a href="edit.php?cid=<?= (int)$row['cid']; ?>">Edit</a>
-        <a oncklik="return confirm('hapus nya ne? <?= htmlspecialchars($row['cnama']); ?>?')
-        < href="proses_delete.php?cid=<? (int)$row['cid'];?>">Delete</a>
+        <a onclick="return confirm('hapus nya ne? <?= htmlspecialchars($row['cnama']); ?>')"
+           href="proses_delete.php?cid=<?= (int)$row['cid']; ?>">Delete</a>
       </td>
       <td><?= $row['cid']; ?></td>
       <td><?= htmlspecialchars($row['cnama']); ?></td>

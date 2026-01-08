@@ -8,4 +8,5 @@ khaila<br>
 <li>menambah parameter cid</li>
 <li>menambah perbaikan parameter cid</li>
 <li>menambah button java</li>
+<li>menambah perbaikan typo</li>
 </ol>
