@@ -5,4 +5,5 @@ khaila<br>
 <li>menambah link delete</li>
 <li>menambah proses delete</li>
 <li>menambah perbaikan kode proses delete</li>
+<li>menambah parameter cid</li>
 </ol>
