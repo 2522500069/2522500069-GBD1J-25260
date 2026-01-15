@@ -6,6 +6,7 @@ saya hari ini mengerjakan soal trout uas 13-01-2025
 <li>mengcopy bahan try out ke pertemuan 15</li>
 <li>membuat tabel biodata</li>
 <li>menambahkan file biodata</li>
+<li>mengcopy semua file</li>
 
 </ol>
 
