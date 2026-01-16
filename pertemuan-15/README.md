@@ -12,6 +12,7 @@ saya hari ini mengerjakan soal trout uas 13-01-2025
 <li>menambahkan kode baru di prose-update_biodata.php</li>
 <li>membuat file edit_biodata.php</li>
 <li>mengcopy file edit php ke edit_biodata</li>
+<li>menambahkan file baru ke proses_update_biodata</li>
 
 </ol>
 
