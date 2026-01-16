@@ -10,6 +10,7 @@ saya hari ini mengerjakan soal trout uas 13-01-2025
 <li>edit kode biodata</li>
 <li>menambahkan varibel baru</li>
 <li>menambahkan kode baru di prose-update_biodata.php</li>
+<li>membuat file edit_biodata.php</li>
 
 </ol>
 
