@@ -11,6 +11,7 @@ saya hari ini mengerjakan soal trout uas 13-01-2025
 <li>menambahkan varibel baru</li>
 <li>menambahkan kode baru di prose-update_biodata.php</li>
 <li>membuat file edit_biodata.php</li>
+<li>mengcopy file edit php ke edit_biodata</li>
 
 </ol>
 
