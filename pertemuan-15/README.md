@@ -9,6 +9,7 @@ saya hari ini mengerjakan soal trout uas 13-01-2025
 <li>mengcopy semua file</li>s
 <li>edit kode biodata</li>
 <li>menambahkan varibel baru</li>
+<li>menambahkan kode baru di prose-update_biodata.php</li>
 
 </ol>
 

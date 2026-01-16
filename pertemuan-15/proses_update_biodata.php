@@ -34,22 +34,35 @@
   #Validasi sederhana
   $errors = []; #ini array untuk menampung semua error yang ada
 
+  if ($nim === '') {
+    $errors[] = 'Nim wajib diisi.';
+  }
   if ($nama === '') {
     $errors[] = 'Nama wajib diisi.';
+  } 
+  if ($tempat=== '') {
+    $errors[] = 'Tempat wajib diisi.';
   }
-
-  if ($email === '') {
-    $errors[] = 'Email wajib diisi.';
-  } elseif (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-    $errors[] = 'Format e-mail tidak valid.';
+  if ($tanggal === '') {
+    $errors[] = 'Tanggal wajib diisi.';
   }
-
-  if ($pesan === '') {
-    $errors[] = 'Pesan wajib diisi.';
+  if ($hobi === '') {
+    $errors[] = 'Hobi wajib diisi.';
   }
-
-  if ($captcha === '') {
-    $errors[] = 'Pertanyaan wajib diisi.';
+  if ($pasangan === '') {
+    $errors[] = 'Pasangan wajib diisi.';
+  }
+  if ($pekerjaan === '') {
+    $errors[] = 'Pekerjaan wajib diisi.';
+  }
+  if ($ortu === '') {
+    $errors[] = 'Ortu wajib diisi.';
+  }
+  if ($kakak === '') {
+    $errors[] = 'kakak wajib diisi.';
+  }
+  if ($adik === '') {
+    $errors[] = 'adik wajib diisi.';
   }
 
   if (mb_strlen($nama) < 3) {
@@ -68,6 +81,7 @@
   kondisi di bawah ini hanya dikerjakan jika ada error, 
   simpan nilai lama dan pesan error, lalu redirect (konsep PRG)
   */
+
   if (!empty($errors)) {
     $_SESSION['old_biodata'] = [
     "txtNim" => $nim,
@@ -79,7 +93,6 @@
     "txtOrtu"=>$ortu,
     "txtKakak"=>$kakak,
     "txtadik"=>$adik,
-
 
     ];
 
