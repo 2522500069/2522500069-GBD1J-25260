@@ -20,10 +20,16 @@
   }
 
   #ambil dan bersihkan (sanitasi) nilai dari form
-  $nama  = bersihkan($_POST['txtNamaEd']  ?? '');
-  $email = bersihkan($_POST['txtEmailEd'] ?? '');
-  $pesan = bersihkan($_POST['txtPesanEd'] ?? '');
-  $captcha = bersihkan($_POST['txtCaptcha'] ?? '');
+  $nim = bersihkan($_POST['txtNim']  ?? '');
+  $nama = bersihkan($_POST['txtNmlengkap'] ?? '');
+  $tempat = bersihkan($_POST['txtT4lhr'] ?? '');
+  $tanggal = bersihkan($_POST['txtTglhr'] ?? '');
+  $hobi = bersihkan($_POST['txtHobi'] ?? '');
+  $pasangan = bersihkan($_POST['txtpasangan'] ?? '');
+  $pekerjaan= bersihkan($_POST['txtKerja'] ?? '');
+  $ortu = bersihkan($_POST['txtNmOrtu'] ?? '');
+  $kakak = bersihkan($_POST['txtNmkakak'] ?? '');
+  $adik = bersihkan($_POST['txtNmadik'] ?? '');
 
   #Validasi sederhana
   $errors = []; #ini array untuk menampung semua error yang ada
@@ -63,10 +69,18 @@
   simpan nilai lama dan pesan error, lalu redirect (konsep PRG)
   */
   if (!empty($errors)) {
-    $_SESSION['old'] = [
-      'nama'  => $nama,
-      'email' => $email,
-      'pesan' => $pesan
+    $_SESSION['old_biodata'] = [
+    "txtNim" => $nim,
+    "txtNamalengkap" => $nama,
+    "txtT4lahr"=> $tempat,
+    "txtTanggal"=>$hobi,
+    "txtpasangan"=>$pasangan,
+    "txtKerja"=>$prkrjaan,
+    "txtOrtu"=>$ortu,
+    "txtKakak"=>$kakak,
+    "txtadik"=>$adik,
+
+
     ];
 
     $_SESSION['flash_error'] = implode('<br>', $errors);

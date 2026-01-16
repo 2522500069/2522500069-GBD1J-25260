@@ -8,6 +8,7 @@ saya hari ini mengerjakan soal trout uas 13-01-2025
 <li>menambahkan file biodata</li>
 <li>mengcopy semua file</li>s
 <li>edit kode biodata</li>
+<li>menambahkan varibel baru</li>
 
 </ol>
 
