@@ -23,6 +23,7 @@ saya hari ini mengerjakan soal trout uas 13-01-2025
 <li>mengcopy dan mengubah kode proses_delate_biodata.php</li>
 <li>menambahkan ulang dan memperbaiki file edit_biodata.php</li>
 <li>menambahkan dan memperbaiki file proses_biodata.phph</li>
+<li>mengcopy proses_delate_biodata.php </li>
 
 </ol>
 
