@@ -20,6 +20,7 @@ saya hari ini mengerjakan soal trout uas 13-01-2025
 <li>memgubah kode baru proses_biodata.php</li>
 <li>mengubahkan kode baru di index.php</li>
 <li>mengubahkan kode proses_update_biodata.php</li>
+<li>mengocopy dan mengubah kode proses_delate_biodata.php</li>
 
 </ol>
 
