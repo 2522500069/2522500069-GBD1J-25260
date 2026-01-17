@@ -26,6 +26,7 @@ saya hari ini mengerjakan soal trout uas 13-01-2025
 <li>mengcopy file proses_delate_biodata.php </li>
 <li>menambah dan mengcopy file proses_update_biodata.php</li>
 <li>menambah ulang file read_biodata.php</li>
+<li>menambah ulang file rad_inc_biodata.php</li>
 
 </ol>
 
