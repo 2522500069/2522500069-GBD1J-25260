@@ -13,7 +13,6 @@ saya hari ini mengerjakan soal trout uas 13-01-2025
 <li>membuat file edit_biodata.php</li>
 <li>mengcopy file edit php ke edit_biodata</li>
 <li>menambahkan file baru ke proses_update_biodata</li>
-<li>menambahkan file proses_biodata.php</li>
 <li>mengcopy file proses update.php ke proses_update biodata</li>
 <li>membuat file prose_ dalete_biodata</li>
 <li>mengubah kode read_inc.php</li>
@@ -22,7 +21,7 @@ saya hari ini mengerjakan soal trout uas 13-01-2025
 <li>mengubahkan kode baru di index.php</li>
 <li>mengubahkan kode proses_update_biodata.php</li>
 <li>mengcopy dan mengubah kode proses_delate_biodata.php</li>
-<li>menambahkan file proses_biodata.php</li>
+<li>menambahkan ulang dan memperbaiki file edit.php</li>
 
 </ol>
 
