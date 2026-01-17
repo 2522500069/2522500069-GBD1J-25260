@@ -18,6 +18,8 @@ saya hari ini mengerjakan soal trout uas 13-01-2025
 <li>mengubah kode read_inc.php</li>
 <li>mengubah kode baru read_inc_biodata.php</li>
 <li>memgubah kode baru proses_biodata.php</li>
+<li>mengubahkan kode baru di index.php</li>
+<li>mengubahkan kode proses_update_biodata.php</li>
 
 </ol>
 
