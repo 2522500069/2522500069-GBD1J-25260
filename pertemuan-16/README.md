@@ -11,3 +11,5 @@ NIM  :25225OOO69
 <li>menambahkan kode baru dari read.php ke read_pengunjung.php</li>
 <li>menambahkan kode baru dari rad_inc.php ke read_pengunjung_inc.php</li>
 <li>menambahkan file proses_pengunjung.php</li>
+<li>menambahkan kode baru dari proses.php ke proses_pengunjung.php</li>
+
