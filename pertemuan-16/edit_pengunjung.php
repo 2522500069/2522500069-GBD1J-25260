@@ -152,16 +152,16 @@
               value="<?= !empty($hobi) ? $hobi : '' ?>">
         </label>
 
-          <label for="txtKerja"><span>Pekerjaan:</span>
-            <input type="text" id="txtKerja" name="txtKerja" 
-              placeholder="Masukkan Pekerjaan" required autocomplete="pekerjaan"
-              value="<?= !empty($pekerjaan) ? $pekerjaan : '' ?>">
+          <label for="txtasal"><span>txtAsalslta:</span>
+            <input type="text" id="txtasalSLTA" name="txtasal" 
+              placeholder="Masukkan asal SLTA" required autocomplete="asal"
+              value="<?= !empty($asal) ? $asal: '' ?>">
           </label>
 
-          <label for="txtPasangan"><span>Nama Lengkap:</span>
-            <input type="text" id="txtPasangan" name="txtPasangan" 
-              placeholder="Masukkan pasangan" required autocomplete="pasangan"
-              value="<?= !empty($pasangan) ? $pasangan : '' ?>">
+          <label for="txtPekerjaan"><span>txtpekerjaan :</span>
+            <input type="text" id="txtPekerjaan" name="txtPekerjaan" 
+              placeholder="Masukkan pekerjaan" required autocomplete="pekerjaan"
+              value="<?= !empty($pekerjaan) ? $pekerjaan: '' ?>">
           </label>
           
           <label for="txtNmOrtu"><span>Nama orang tua:</span>
@@ -170,15 +170,15 @@
               value="<?= !empty($ortu) ? $ortu : '' ?>">
           </label>
 
-          <label for="txtNmKakak"><span>Nama kakak:</span>
-            <input type="text" id="txtNmKakak" name="txtNmKakak" 
-              placeholder="Masukkan nama kakak" required autocomplete="kakak"
-              value="<?= !empty($kakak) ? $kakak : '' ?>">
+          <label for="txtNmpacar"><span>Nama pacar:</span>
+            <input type="text" id="txtNmpacar" name="txtNmpacar" 
+              placeholder="Masukkan nama pacar" required autocomplete="pacar"
+              value="<?= !empty($pacar) ? $pacar : '' ?>">
           </label>
 
-          <label for="txtNmAdik"><span>Nama Adik:</span>
-            <input type="text" name="txtNmAdik" 
-              placeholder="Masukkan nama adik" required autocomplete="adik"
+          <label for="txtNmmantan"><span>Nama mantan:</span>
+            <input type="text" name="txtNmmantan" 
+              placeholder="Masukkan nama mantan" required autocomplete="mantan"
               value="<?= !empty($adik) ? $adik : '' ?>">
           </label>
 
