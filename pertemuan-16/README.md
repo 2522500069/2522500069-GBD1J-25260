@@ -16,4 +16,5 @@ NIM  :25225OOO69
 <li>menambhkan kode baru dari proses_update.php ke proses_update_pengunjung.php</li>
 <li>membuat file proses_delate_pengunjung.php</li>
 <li>mengcopy file proses.php ke proses_pengunjung.php</li>
+<li>mengubah kode baru di proses_delate_pengunjung.php</li>
 
