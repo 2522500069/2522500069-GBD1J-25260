@@ -25,6 +25,7 @@ if (!$q) {
     $arrContact = [
       "kode"  => $row["ckode_pengunjung"]  ?? "",
       "nama" => $row["cnama_pengunjung"] ?? "",
+      "alamat" => $row["calamat_rumah"] ?? "",
       "tanggal" => $row["ctanggal_kunjungan"] ?? "",
       "hobi" => $row["chobi"] ?? "",
       "asal" => $row["casal_SLTA"] ?? "",

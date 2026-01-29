@@ -75,16 +75,16 @@
   unset($_SESSION['flash_error'], $_SESSION['old_biodata']);
   if (!empty($old_biodata)) {
 
-    $nim = $old_biodata['txtNim']?? $txtNim;
-    $nama = $old_biodata['txtNmLengkap']?? $txtNmLengkap;
-    $tempat = $old_biodata['txtT4Lhr']?? $txtT4Lhr;
-    $tanggal = $old_biodata['txtTglLhr']?? $txtTglLhr;
-    $hobi = $old_biodata['txtHobi']?? $txtHobi;
-    $pasangan = $old_biodata['txtPasangan']?? $txtPasangan;
+    $kode = $old_biodata['txtkode']?? $txtkode;
+    $nama = $old_biodata['txtNmpengunjung']?? $txtNmpengunjung;
+    $alamat = $old_biodata['txtAlmtrumah']?? $txtAlamtrumah;
+    $tanggal = $old_biodata['txtTglkunjungan']?? $txtTglKunjungan;
+    $hobi = $old_biodata['txthobi']?? $txthobi;
+    $asal = $old_biodata['txtasalSLTA']?? $txtAsalSLTA;
     $pekerjaan = $old_biodata['txtKerja']?? $txtKerja;
     $ortu = $old_biodata['txtNmOrtu']?? $txtNmOrtu;
-    $kakak = $old_biodata['txtNmKakak']?? $txtNmKakak;
-    $adik = $old_biodata['txtNmAdik']?? $txtNmAdik;
+    $pacar = $old_biodata['txtNmPacar']?? $txtNmpacar;
+    $mantan = $old_biodata['txtNmmantan']?? $txtNmmantan;
   }
 ?>
 
